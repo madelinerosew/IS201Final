@@ -1,0 +1,88 @@
+body{
+    color: rgb(255, 136, 237);
+    background-image: url(../images/pinkbackground.jpg);
+}
+
+div{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+    font-weight: bold;
+    font-size: 60px;
+    color: black;
+    -webkit-text-stroke-width: 1px; 
+    -webkit-text-stroke-color:rgb(255, 255, 255);
+    
+}
+h3{
+    text-align: center;
+    font-weight:bold;
+    font: size 30px;
+    color: rgb(6, 53, 6)
+
+}
+
+.common{
+    position: relative;
+}
+
+.tableauheader{
+    left: 5px;
+    right: 5px;
+    height: 40px;
+    z-index: 2;
+    text-align: center;
+    border-spacing: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 5px solid black;
+    padding: 10px;
+    margin: 20px;
+
+   
+}
+
+.tableaubody {
+    top: 80px;
+    left: 10px;
+    right: 10px;
+    bottom: 64px;
+    padding-right: 5px;
+    padding-bottom: 250px;
+    z-index: 2;
+    position: relative;
+
+}
+
+
+.tableaufooter {
+    bottom: 5px;
+    height: 45px;
+    right: 5px;
+    left: 5px;
+    font-size: 12px;
+    color: #ffffff;
+    text-align: center;
+    position: fixed;
+    z-index: 5;
+    border: solid 3px #444;
+    background-color: #555;
+}
+
+
+a:hover{
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+a:visited{
+    color:rgb(83, 83, 83)
+}
+
+.underline{text-decoration: underline;}
+
+.bold{font-weight: bold;}
+
+.justify{text-align: justify;}
